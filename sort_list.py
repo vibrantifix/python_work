@@ -1,0 +1,23 @@
+print("> sorting a list permanently with the sort() method :")
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("before sort :\n",cars)
+cars.sort()
+print("after sort :\n",cars)
+print("\n--------------------------------------------------------------")
+print("\n> sorting a list temporarily with the sorted() function :")
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("\nHere is the original list:")
+print(cars)
+print("\nHere is the original list:")
+print(sorted(cars))
+print("\nHere is the original list:")
+print(cars)
+print("\n--------------------------------------------------------------")
+print("\n> Print a list in reverse order :")
+print("Before reverse :\n",cars)
+cars.reverse()
+print("After reverse :\n",cars)
+print("\n--------------------------------------------------------------")
+print("> Finding the length of a list :")
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(len(cars))
